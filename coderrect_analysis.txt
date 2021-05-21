@@ -1,0 +1,55 @@
+Coderrect (hpc) 1.0.0 build 1614743351
+
+
+Analyzing /home/elkin/Documents/closest-pair-problem/a.out ...
+ - ▖ [00m:00s] Loading IR From File           - ▘ [00m:00s] Loading IR From File           - ✔ [00m:00s] Loading IR From File                    
+ - ▖ [00m:00s] Running Compiler Optimization Passes           - ▘ [00m:00s] Running Compiler Optimization Passes           - ✔ [00m:00s] Running Compiler Optimization Passes                                    
+ - ▖ [00m:00s] Running Pointer Analysis           - ▘ [00m:00s] Running Pointer Analysis           - ✔ [00m:00s] Running Pointer Analysis                        
+ - ▖ [00m:00s] Building Static Happens-Before Graph           - ▘ [00m:00s] Building Static Happens-Before Graph           - ✔ [00m:00s] Building Static Happens-Before Graph                                    
+ - ▖ [00m:00s] Detecting Races           - ✔ [00m:00s] Detecting Races               
+ - ▖ [00m:00s] Scanning for additional OpenMP Regions           - ▘ [00m:00s] Scanning for additional OpenMP Regions           - ✔ [00m:00s] Scanning for additional OpenMP Regions                                      
+
+==== Found a race between: 
+line 75, column 17 in parallel_closest_pair_mpi.cpp AND line 75, column 17 in parallel_closest_pair_mpi.cpp
+[0;31mShared variable: 
+[0m[0;32mansR[0m at line 69 of parallel_closest_pair_mpi.cpp
+ 69|        double ansL, ansR;
+[0;33mThread 1: 
+[0m 73|                ansL = closest_pair_problem_2d_openmp(coordinates, p, mid);
+ 74|            #pragma omp section
+>75|                ansR = closest_pair_problem_2d_openmp(coordinates, mid, q);
+ 76|        }
+ 77|        ans = min(ansL, ansR);
+>>>Stack Trace:
+>>>.omp_outlined._debug__ [parallel_closest_pair_mpi.cpp:71]
+[0;33mThread 2: 
+[0m 73|                ansL = closest_pair_problem_2d_openmp(coordinates, p, mid);
+ 74|            #pragma omp section
+>75|                ansR = closest_pair_problem_2d_openmp(coordinates, mid, q);
+ 76|        }
+ 77|        ans = min(ansL, ansR);
+>>>Stack Trace:
+>>>.omp_outlined._debug__ [parallel_closest_pair_mpi.cpp:71]
+[0;32mThe OpenMP region this bug occurs:
+[0m/home/elkin/Documents/closest-pair-problem/parallel_closest_pair_mpi.cpp
+>70|        #pragma omp parallel sections
+ 71|        {
+ 72|            #pragma omp section
+ 73|                ansL = closest_pair_problem_2d_openmp(coordinates, p, mid);
+ 74|            #pragma omp section
+ 75|                ansR = closest_pair_problem_2d_openmp(coordinates, mid, q);
+[0;32mGets called from:
+[0m>>>main
+>>>  solve [parallel_closest_pair_mpi.cpp:199]
+>>>    closest_pair_problem_2d_mpi [parallel_closest_pair_mpi.cpp:136]
+>>>      closest_pair_problem_2d_openmp [parallel_closest_pair_mpi.cpp:107]
+[0m
+----------------------------The summary of races in a.out------------------------
+
+	 1 OpenMP races
+
+
+
+To check the race report in your browser, run "browse /home/elkin/Documents/closest-pair-problem/.coderrect/report/index.html"
+
+Any feedback? please send them to feedback@coderrect.com, thank you!

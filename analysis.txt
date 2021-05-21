@@ -1,0 +1,1039 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 10.25      9.83     9.83 11649885506     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const
+  5.12     14.75     4.91      350    14.04   266.41  closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&)
+  4.67     19.23     4.48 483184618     0.00     0.00  void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>)
+  4.53     23.57     4.34 2721510526     0.00     0.00  bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  4.47     27.86     4.29 4375324716     0.00     0.00  std::remove_reference<Point&>::type&& std::move<Point&>(Point&)
+  3.42     31.14     3.28 31694460     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  3.37     34.38     3.23 2841553232     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator--()
+  3.18     37.42     3.05 1964980003     0.00     0.00  comp_x(Point const&, Point const&)
+  3.12     40.41     2.99 2463418713     0.00     0.00  comp_y(Point const&, Point const&)
+  2.87     43.17     2.75 1733208274     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator++()
+  2.68     45.73     2.57 2163469539     0.00     0.00  std::vector<Point, std::allocator<Point> >::operator[](unsigned long) const
+  2.37     48.00     2.27 1706888190     0.00     0.00  bool __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::operator()<Point, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(Point&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  2.05     49.98     1.97 3611559280     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const
+  1.92     51.82     1.84 1732814223     0.00     0.00  std::vector<Point, std::allocator<Point> >::size() const
+  1.81     53.56     1.74 164182039     0.00     0.00  void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&)
+  1.66     55.15     1.59 328364078     0.00     0.00  Point* std::__relocate_a_1<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&)
+  1.40     56.50     1.35 1510733616     0.00     0.00  std::abs(double)
+  1.38     57.82     1.32 478702623     0.00     0.00  std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Point> >, std::is_move_constructible<Point>, std::is_move_assignable<Point> >::value, void>::type std::swap<Point>(Point&, Point&)
+  1.31     59.07     1.26 1963048203     0.00     0.00  Point* std::__addressof<Point>(Point&)
+  1.25     60.27     1.20 620349401     0.00     0.00  void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&)
+  1.24     61.46     1.19 328364078     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&)
+  1.18     62.60     1.13 620349401     0.00     0.00  void std::allocator_traits<std::allocator<Point> >::construct<Point, Point>(std::allocator<Point>&, Point*, Point&&)
+  1.14     63.69     1.09 1213077618     0.00     0.00  std::vector<Point, std::allocator<Point> >::operator[](unsigned long)
+  1.13     64.77     1.08 495004769     0.00     0.00  std::vector<Point, std::allocator<Point> >::push_back(Point const&)
+  1.06     65.79     1.02 628143593     0.00     0.00  bool __gnu_cxx::operator!=<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&)
+  1.04     66.79     1.00 620349401     0.00     0.00  void __gnu_cxx::new_allocator<Point>::construct<Point, Point>(Point*, Point&&)
+  1.02     67.77     0.98 36672832     0.00     0.00  void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.98     68.71     0.94 1217354170     0.00     0.00  operator new(unsigned long, void*)
+  0.95     69.62     0.91 328364078     0.00     0.00  Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&)
+  0.93     70.51     0.89 495004769     0.00     0.00  void __gnu_cxx::new_allocator<Point>::construct<Point, Point const&>(Point*, Point const&)
+  0.93     71.40     0.89 483184618     0.00     0.00  __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__val_comp_iter<bool (*)(Point const&, Point const&)>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.82     72.19     0.79 708387036     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&)
+  0.82     72.98     0.79 620349401     0.00     0.00  void std::allocator_traits<std::allocator<Point> >::destroy<Point>(std::allocator<Point>&, Point*)
+  0.80     73.75     0.77 495004769     0.00     0.00  void std::allocator_traits<std::allocator<Point> >::construct<Point, Point const&>(std::allocator<Point>&, Point*, Point const&)
+  0.80     74.52     0.77 1240698802     0.00     0.00  Point&& std::forward<Point>(std::remove_reference<Point>::type&)
+  0.79     75.28     0.76 200854871     0.00     0.00  std::vector<Point, std::allocator<Point> >::begin()
+  0.79     76.04     0.76 369283915     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&)
+  0.78     76.78     0.75 1243441577     0.00     0.00  Point const& std::forward<Point const&>(std::remove_reference<Point const&>::type&)
+  0.73     77.48     0.70 478702623     0.00     0.00  bool __gnu_cxx::operator< <Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&)
+  0.71     78.17     0.69 36672832     0.00     0.00  closest_pair_problem_naive(std::vector<Point, std::allocator<Point> > const&, int const&, int const&)
+  0.71     78.85     0.68 274982834     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const
+  0.66     79.48     0.63 483184618     0.00     0.00  __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&&)
+  0.63     80.08     0.61 328364128     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&)
+  0.60     80.66     0.58 164182039     0.00     0.00  std::vector<Point, std::allocator<Point> >::_M_check_len(unsigned long, char const*) const
+  0.58     81.21     0.56 478702623     0.00     0.00  void std::iter_swap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  0.56     81.75     0.54 985092234     0.00     0.00  Point* std::__niter_base<Point*>(Point*)
+  0.54     82.27     0.52 89250000     0.00     0.00  void std::_Construct<Point, Point const&>(Point*, Point const&)
+  0.50     82.75     0.48 620349401     0.00     0.00  void __gnu_cxx::new_allocator<Point>::destroy<Point>(Point*)
+  0.49     83.22     0.47 200854921     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long)
+  0.49     83.69     0.47 64397319     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::move_backward<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  0.49     84.16     0.47  7215992     0.00     0.00  void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.47     84.61     0.45 328364078     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_do_relocate(Point*, Point*, Point*, std::allocator<Point>&, std::integral_constant<bool, true>)
+  0.47     85.06     0.45 328364128     0.00     0.00  unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  0.46     85.51     0.45 164182039     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.42     85.91     0.40 164182439     0.00     0.00  __gnu_cxx::new_allocator<Point>::allocate(unsigned long, void const*)
+  0.40     86.29     0.38 556530282     0.00     0.00  std::remove_reference<bool (*&)(Point const&, Point const&)>::type&& std::move<bool (*&)(Point const&, Point const&)>(bool (*&)(Point const&, Point const&))
+  0.40     86.67     0.38 483184618     0.00     0.00  std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&)
+  0.39     87.04     0.37 492546567     0.00     0.00  __gnu_cxx::new_allocator<Point>::max_size() const
+  0.39     87.41     0.37 328364078     0.00     0.00  std::vector<Point, std::allocator<Point> >::max_size() const
+  0.39     87.78     0.37 257589276     0.00     0.00  Point* std::__niter_base<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  0.35     88.12     0.34 328364078     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_use_relocate()
+  0.34     88.45     0.33 328364128     0.00     0.00  std::allocator_traits<std::allocator<Point> >::max_size(std::allocator<Point> const&)
+  0.31     88.75     0.30 31694460     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const
+  0.30     89.04     0.29 235770402     0.00     0.00  __gnu_cxx::__promote_2<double, int, __gnu_cxx::__promote<double, std::__is_integer<double>::__value>::__type, __gnu_cxx::__promote<int, std::__is_integer<int>::__value>::__type>::__type std::pow<double, int>(double, int)
+  0.28     89.31     0.27 200854871     0.00     0.00  std::vector<Point, std::allocator<Point> >::end()
+  0.28     89.58     0.27 164182439     0.00     0.00  std::allocator_traits<std::allocator<Point> >::allocate(std::allocator<Point>&, unsigned long)
+  0.27     89.84     0.26 328364428     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const
+  0.27     90.10     0.26 365037360     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator()
+  0.27     90.36     0.26 36672832     0.00     0.00  void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.25     90.60     0.24 36672882     0.00     0.00  void std::_Destroy<Point*>(Point*, Point*)
+  0.25     90.84     0.24                             void std::__pop_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&)
+  0.21     91.05     0.21        1   205.15   205.15  _GLOBAL__sub_I__ZN5PointC2Ev
+  0.21     91.25     0.20 117885201     0.00     0.00  distance(double const&, double const&, double const&, double const&)
+  0.21     91.45     0.20 64397319     0.00     0.00  Point* std::__copy_move_backward<true, true, std::random_access_iterator_tag>::__copy_move_b<Point>(Point const*, Point const*, Point*)
+  0.21     91.65     0.20 178500700     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const
+  0.20     91.84     0.19 164182439     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long)
+  0.20     92.03     0.19 89250000     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++()
+  0.19     92.21     0.19 64397319     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  0.19     92.39     0.18 328364078     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_nothrow_relocate(std::integral_constant<bool, true>)
+  0.18     92.56     0.17 36672832     0.00     0.00  bool __gnu_cxx::operator==<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&)
+  0.18     92.73     0.17      350     0.49     4.24  Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*)
+  0.17     92.89     0.16 31694460     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.16     93.04     0.15 89250350     0.00     0.00  bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&)
+  0.16     93.19     0.15 164182439     0.00     0.00  std::allocator_traits<std::allocator<Point> >::deallocate(std::allocator<Point>&, Point*, unsigned long)
+  0.15     93.33     0.14 36672832     0.00     0.00  void std::sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&))
+  0.14     93.47     0.14 36672832     0.00     0.00  void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.14     93.60     0.14                             bool std::operator==<Point*>(std::move_iterator<Point*> const&, std::move_iterator<Point*> const&)
+  0.14     93.73     0.13 31694460     0.00     0.00  void std::__move_median_to_first<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.14     93.86     0.13 64397319     0.00     0.00  Point* std::__copy_move_backward_a<true, Point*, Point*>(Point*, Point*, Point*)
+  0.14     93.99     0.13                             void std::__adjust_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, Point, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, long, Point, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.13     94.12     0.13 164182439     0.00     0.00  __gnu_cxx::new_allocator<Point>::deallocate(Point*, unsigned long)
+  0.11     94.23     0.11 36672832     0.00     0.00  __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__iter_comp_iter<bool (*)(Point const&, Point const&)>(bool (*)(Point const&, Point const&))
+  0.11     94.34     0.11 36672832     0.00     0.00  void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.11     94.44     0.11                             void std::__partial_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  0.10     94.54     0.10 64397319     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__niter_wrap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*)
+  0.10     94.64     0.10 86076179     0.00     0.00  double const& std::min<double>(double const&, double const&)
+  0.10     94.74     0.10 36672482     0.00     0.00  std::vector<Point, std::allocator<Point> >::vector()
+  0.09     94.83     0.09                             void std::__make_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&)
+  0.09     94.92     0.09 128794638     0.00     0.00  __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__miter_base<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  0.08     95.00     0.08 36672882     0.00     0.00  void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*)
+  0.08     95.08     0.08 36672882     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base()
+  0.08     95.15     0.08 89250000     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const
+  0.07     95.22     0.07 36672882     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data()
+  0.07     95.29     0.07 36672882     0.00     0.00  void std::_Destroy<Point*, Point>(Point*, Point*, std::allocator<Point>&)
+  0.07     95.36     0.07 12750000     0.00     0.00  void std::_Construct<Point>(Point*)
+  0.06     95.42     0.06 36673332     0.00     0.00  std::allocator<Point>::~allocator()
+  0.06     95.48     0.06 36672832     0.00     0.00  std::__lg(long)
+  0.06     95.54     0.06 36672532     0.00     0.00  std::allocator<Point>::allocator()
+  0.06     95.60     0.06       50     1.20     3.16  Point* std::__uninitialized_default_n_1<false>::__uninit_default_n<Point*, unsigned long>(Point*, unsigned long)
+  0.05     95.65     0.05                             main
+  0.05     95.70     0.05 36672882     0.00     0.00  std::vector<Point, std::allocator<Point> >::~vector()
+  0.05     95.75     0.05      350     0.14     0.14  __gnu_cxx::__alloc_traits<std::allocator<Point>, Point>::_S_select_on_copy(std::allocator<Point> const&)
+  0.04     95.79     0.04 36672832     0.00     0.00  __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::_Iter_comp_iter(bool (*)(Point const&, Point const&))
+  0.04     95.83     0.04 36672482     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl()
+  0.03     95.86     0.03 36672482     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_base()
+  0.03     95.89     0.03 12750000     0.00     0.00  Point::Point(double, double)
+  0.02     95.91     0.02 36672532     0.00     0.00  __gnu_cxx::new_allocator<Point>::new_allocator()
+  0.02     95.93     0.02                             void std::__push_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, Point, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, long, Point, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(Point const&, Point const&)>&)
+  0.01     95.94     0.01 36672882     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl()
+  0.01     95.95     0.01 12750000     0.00     0.00  Point::Point()
+  0.01     95.96     0.01                             Point* std::__uninitialized_copy_a<std::move_iterator<Point*>, Point*, Point>(std::move_iterator<Point*>, std::move_iterator<Point*>, Point*, std::allocator<Point>&)
+  0.01     95.97     0.01      350     0.01     4.26  Point* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*)
+  0.01     95.97     0.01      350     0.01     4.27  Point* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, Point>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, std::allocator<Point>&)
+  0.00     95.97     0.00 36673332     0.00     0.00  __gnu_cxx::new_allocator<Point>::~new_allocator()
+  0.00     95.97     0.00      800     0.00     0.00  __gnu_cxx::new_allocator<Point>::new_allocator(__gnu_cxx::new_allocator<Point> const&)
+  0.00     95.97     0.00      800     0.00     0.00  std::allocator<Point>::allocator(std::allocator<Point> const&)
+  0.00     95.97     0.00      700     0.00     0.00  __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&)
+  0.00     95.97     0.00      400     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl(std::allocator<Point> const&)
+  0.00     95.97     0.00      400     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_M_create_storage(unsigned long)
+  0.00     95.97     0.00      400     0.00     0.00  std::_Vector_base<Point, std::allocator<Point> >::_Vector_base(unsigned long, std::allocator<Point> const&)
+  0.00     95.97     0.00      350     0.00   266.41  solve(std::vector<Point, std::allocator<Point> >, int const&)
+  0.00     95.97     0.00      350     0.00     0.00  std::vector<Point, std::allocator<Point> >::end() const
+  0.00     95.97     0.00      350     0.00     0.00  std::vector<Point, std::allocator<Point> >::begin() const
+  0.00     95.97     0.00      350     0.00     0.00  std::allocator_traits<std::allocator<Point> >::select_on_container_copy_construction(std::allocator<Point> const&)
+  0.00     95.97     0.00      350     0.00     4.42  std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&)
+  0.00     95.97     0.00       50     0.00     0.00  std::vector<Point, std::allocator<Point> >::_S_check_init_len(unsigned long, std::allocator<Point> const&)
+  0.00     95.97     0.00       50     0.00     3.16  std::vector<Point, std::allocator<Point> >::_M_default_initialize(unsigned long)
+  0.00     95.97     0.00       50     0.00     3.16  std::vector<Point, std::allocator<Point> >::vector(unsigned long, std::allocator<Point> const&)
+  0.00     95.97     0.00       50     0.00     3.16  Point* std::__uninitialized_default_n<Point*, unsigned long>(Point*, unsigned long)
+  0.00     95.97     0.00       50     0.00     3.16  Point* std::__uninitialized_default_n_a<Point*, unsigned long, Point>(Point*, unsigned long, std::allocator<Point>&)
+  0.00     95.97     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.01% of 95.97 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     99.0    0.05   94.99                 main [1]
+                0.00   93.24     350/350         solve(std::vector<Point, std::allocator<Point> >, int const&) [2]
+                0.00    1.55     350/350         std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+                0.00    0.16      50/50          std::vector<Point, std::allocator<Point> >::vector(unsigned long, std::allocator<Point> const&) [104]
+                0.03    0.00 12750000/12750000     Point::Point(double, double) [126]
+                0.01    0.00 12750000/1213077618     std::vector<Point, std::allocator<Point> >::operator[](unsigned long) [54]
+                0.00    0.00     400/36672882     std::vector<Point, std::allocator<Point> >::~vector() [64]
+                0.00    0.00      50/36672532     std::allocator<Point>::allocator() [118]
+                0.00    0.00      50/36673332     std::allocator<Point>::~allocator() [123]
+-----------------------------------------------
+                0.00   93.24     350/350         main [1]
+[2]     97.2    0.00   93.24     350         solve(std::vector<Point, std::allocator<Point> >, int const&) [2]
+                4.91   88.33     350/350         closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+                0.00    0.00     350/36672832     void std::sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)) [4]
+                0.00    0.00     350/200854871     std::vector<Point, std::allocator<Point> >::begin() [56]
+                0.00    0.00     350/200854871     std::vector<Point, std::allocator<Point> >::end() [73]
+-----------------------------------------------
+                             73344964             closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+                4.91   88.33     350/350         solve(std::vector<Point, std::allocator<Point> >, int const&) [2]
+[3]     97.2    4.91   88.33     350+73344964 closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+                0.14   53.32 36672482/36672832     void std::sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)) [4]
+                1.08   25.04 495004769/495004769     std::vector<Point, std::allocator<Point> >::push_back(Point const&) [7]
+                2.42    0.00 2042410867/2163469539     std::vector<Point, std::allocator<Point> >::operator[](unsigned long) const [33]
+                1.35    0.00 1510733616/1510733616     std::abs(double) [48]
+                1.14    0.00 1076085717/1732814223     std::vector<Point, std::allocator<Point> >::size() const [39]
+                0.69    0.43 36672832/36672832     closest_pair_problem_naive(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [53]
+                1.08    0.00 1200327618/1213077618     std::vector<Point, std::allocator<Point> >::operator[](unsigned long) [54]
+                0.05    0.70 36672482/36672882     std::vector<Point, std::allocator<Point> >::~vector() [64]
+                0.10    0.22 36672482/36672482     std::vector<Point, std::allocator<Point> >::vector() [87]
+                0.08    0.12 49403697/117885201     distance(double const&, double const&, double const&, double const&) [74]
+                0.14    0.04 36672482/200854871     std::vector<Point, std::allocator<Point> >::begin() [56]
+                0.10    0.00 86076179/86076179     double const& std::min<double>(double const&, double const&) [113]
+                0.05    0.04 36672482/200854871     std::vector<Point, std::allocator<Point> >::end() [73]
+                             73344964             closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+-----------------------------------------------
+                0.00    0.00     350/36672832     solve(std::vector<Point, std::allocator<Point> >, int const&) [2]
+                0.14   53.32 36672482/36672832     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[4]     55.7    0.14   53.32 36672832         void std::sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)) [4]
+                0.11   53.01 36672832/36672832     void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [5]
+                0.11    0.09 36672832/36672832     __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__iter_comp_iter<bool (*)(Point const&, Point const&)>(bool (*)(Point const&, Point const&)) [98]
+-----------------------------------------------
+                0.11   53.01 36672832/36672832     void std::sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)) [4]
+[5]     55.3    0.11   53.01 36672832         void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [5]
+                0.14   27.74 36672832/36672832     void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [6]
+                0.26   24.59 36672832/36672832     void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [8]
+                0.08    0.04 36672832/369283915     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [52]
+                0.06    0.04 36672832/628143593     bool __gnu_cxx::operator!=<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [40]
+                0.06    0.00 36672832/36672832     std::__lg(long) [124]
+-----------------------------------------------
+                0.14   27.74 36672832/36672832     void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [5]
+[6]     29.0    0.14   27.74 36672832         void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [6]
+                0.98   14.43 36672832/36672832     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                0.47   11.70 7215992/7215992     void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [16]
+                0.08    0.04 36672832/369283915     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [52]
+                0.04    0.02 14431984/274982834     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const [55]
+-----------------------------------------------
+                1.08   25.04 495004769/495004769     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[7]     27.2    1.08   25.04 495004769         std::vector<Point, std::allocator<Point> >::push_back(Point const&) [7]
+                1.74   21.13 164182039/164182039     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+                0.51    1.25 330822730/495004769     void std::allocator_traits<std::allocator<Point> >::construct<Point, Point const&>(std::allocator<Point>&, Point*, Point const&) [32]
+                0.22    0.18 164182039/200854871     std::vector<Point, std::allocator<Point> >::end() [73]
+-----------------------------------------------
+                             31694460             void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [8]
+                0.26   24.59 36672832/36672832     void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [5]
+[8]     25.9    0.26   24.59 36672832+31694460 void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [8]
+                0.16   24.12 31694460/31694460     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [9]
+                0.20    0.11 100061752/369283915     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [52]
+                             31694460             void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [8]
+-----------------------------------------------
+                0.16   24.12 31694460/31694460     void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [8]
+[9]     25.3    0.16   24.12 31694460         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [9]
+                3.28   19.27 31694460/31694460     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [11]
+                0.13    0.66 31694460/31694460     void std::__move_median_to_first<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [62]
+                0.24    0.11 95083380/274982834     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const [55]
+                0.30    0.04 31694460/31694460     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [84]
+                0.06    0.03 31694460/369283915     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [52]
+-----------------------------------------------
+                1.74   21.13 164182039/164182039     std::vector<Point, std::allocator<Point> >::push_back(Point const&) [7]
+[10]    23.8    1.74   21.13 164182039         void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+                1.19   11.13 328364078/328364078     std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [15]
+                0.58    3.41 164182039/164182039     std::vector<Point, std::allocator<Point> >::_M_check_len(unsigned long, char const*) const [25]
+                0.19    0.79 164182039/164182439     std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [57]
+                0.26    0.62 164182039/495004769     void std::allocator_traits<std::allocator<Point> >::construct<Point, Point const&>(std::allocator<Point>&, Point*, Point const&) [32]
+                0.62    0.18 164182039/200854871     std::vector<Point, std::allocator<Point> >::begin() [56]
+                0.38    0.22 164182039/200854921     std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [66]
+                0.34    0.18 328364078/328364078     std::vector<Point, std::allocator<Point> >::_S_use_relocate() [71]
+                0.34    0.18 164182039/369283915     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [52]
+                0.23    0.00 328364078/365037360     std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [92]
+                0.18    0.00 328364078/3611559280     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [36]
+                0.10    0.00 164182039/1243441577     Point const& std::forward<Point const&>(std::remove_reference<Point const&>::type&) [65]
+-----------------------------------------------
+                3.28   19.27 31694460/31694460     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [9]
+[11]    23.5    3.28   19.27 31694460         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [11]
+                3.75    7.30 2351985839/2721510526     bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [14]
+                0.52    3.30 447008163/478702623     void std::iter_swap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [24]
+                1.88    0.00 1185626337/1733208274     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator++() [30]
+                1.29    0.00 1134665042/2841553232     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator--() [27]
+                0.70    0.52 478702623/478702623     bool __gnu_cxx::operator< <Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [51]
+-----------------------------------------------
+                2.07    5.93 222643078/483184618     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                2.42    6.94 260541540/483184618     void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [16]
+[12]    18.1    4.48   12.87 483184618         void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>) [12]
+                2.27    3.62 1706888190/1706888190     bool __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::operator()<Point, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(Point&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [22]
+                2.88    0.00 3413776380/11649885506     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [19]
+                2.15    0.00 2190072808/4375324716     std::remove_reference<Point&>::type&& std::move<Point&>(Point&) [23]
+                1.94    0.00 1706888190/2841553232     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator--() [27]
+-----------------------------------------------
+                0.98   14.43 36672832/36672832     void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [6]
+[13]    16.1    0.98   14.43 36672832         void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                2.07    5.93 222643078/483184618     void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>) [12]
+                0.47    1.44 64397319/64397319     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::move_backward<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [37]
+                0.46    0.89 287040397/2721510526     bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [14]
+                0.41    0.62 222643078/483184618     __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__val_comp_iter<bool (*)(Point const&, Point const&)>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [35]
+                0.53    0.35 323713229/628143593     bool __gnu_cxx::operator!=<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [40]
+                0.46    0.00 287040397/1733208274     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator++() [30]
+                0.25    0.11 101070151/274982834     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const [55]
+                0.17    0.04 36672832/36672832     bool __gnu_cxx::operator==<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [95]
+                0.13    0.00 128794638/4375324716     std::remove_reference<Point&>::type&& std::move<Point&>(Point&) [23]
+                0.11    0.00 128794638/11649885506     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [19]
+-----------------------------------------------
+                0.13    0.26 82484290/2721510526     void std::__move_median_to_first<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [62]
+                0.46    0.89 287040397/2721510526     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                3.75    7.30 2351985839/2721510526     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [11]
+[14]    13.3    4.34    8.45 2721510526         bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [14]
+                4.59    0.00 5443021052/11649885506     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [19]
+                2.54    0.00 1635704217/1964980003     comp_x(Point const&, Point const&) [28]
+                1.32    0.00 1085806309/2463418713     comp_y(Point const&, Point const&) [29]
+-----------------------------------------------
+                1.19   11.13 328364078/328364078     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[15]    12.8    1.19   11.13 328364078         std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [15]
+                0.45   10.68 328364078/328364078     std::vector<Point, std::allocator<Point> >::_S_do_relocate(Point*, Point*, Point*, std::allocator<Point>&, std::integral_constant<bool, true>) [17]
+-----------------------------------------------
+                0.47   11.70 7215992/7215992     void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [6]
+[16]    12.7    0.47   11.70 7215992         void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [16]
+                2.42    6.94 260541540/483184618     void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>) [12]
+                0.48    0.72 260541540/483184618     __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__val_comp_iter<bool (*)(Point const&, Point const&)>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [35]
+                0.44    0.29 267757532/628143593     bool __gnu_cxx::operator!=<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [40]
+                0.41    0.00 260541540/1733208274     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator++() [30]
+-----------------------------------------------
+                0.45   10.68 328364078/328364078     std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [15]
+[17]    11.6    0.45   10.68 328364078         std::vector<Point, std::allocator<Point> >::_S_do_relocate(Point*, Point*, Point*, std::allocator<Point>&, std::integral_constant<bool, true>) [17]
+                0.91    9.77 328364078/328364078     Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [18]
+-----------------------------------------------
+                0.91    9.77 328364078/328364078     std::vector<Point, std::allocator<Point> >::_S_do_relocate(Point*, Point*, Point*, std::allocator<Point>&, std::integral_constant<bool, true>) [17]
+[18]    11.1    0.91    9.77 328364078         Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [18]
+                1.59    7.64 328364078/328364078     Point* std::__relocate_a_1<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [20]
+                0.54    0.00 985092234/985092234     Point* std::__niter_base<Point*>(Point*) [69]
+-----------------------------------------------
+                0.11    0.00 128794638/11649885506     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                0.81    0.00 957405246/11649885506     void std::iter_swap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [24]
+                1.44    0.00 1706888190/11649885506     bool __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::operator()<Point, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(Point&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [22]
+                2.88    0.00 3413776380/11649885506     void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>) [12]
+                4.59    0.00 5443021052/11649885506     bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [14]
+[19]    10.2    9.83    0.00 11649885506         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [19]
+-----------------------------------------------
+                1.59    7.64 328364078/328364078     Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [18]
+[20]     9.6    1.59    7.64 328364078         Point* std::__relocate_a_1<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [20]
+                1.20    5.65 620349401/620349401     void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&) [21]
+                0.79    0.00 1240698802/1963048203     Point* std::__addressof<Point>(Point&) [50]
+-----------------------------------------------
+                1.20    5.65 620349401/620349401     Point* std::__relocate_a_1<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [20]
+[21]     7.1    1.20    5.65 620349401         void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&) [21]
+                1.13    2.25 620349401/620349401     void std::allocator_traits<std::allocator<Point> >::construct<Point, Point>(std::allocator<Point>&, Point*, Point&&) [26]
+                0.79    0.48 620349401/620349401     void std::allocator_traits<std::allocator<Point> >::destroy<Point>(std::allocator<Point>&, Point*) [49]
+                0.61    0.00 620349401/4375324716     std::remove_reference<Point&>::type&& std::move<Point&>(Point&) [23]
+                0.40    0.00 620349401/1963048203     Point* std::__addressof<Point>(Point&) [50]
+-----------------------------------------------
+                2.27    3.62 1706888190/1706888190     void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>) [12]
+[22]     6.1    2.27    3.62 1706888190         bool __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::operator()<Point, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(Point&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [22]
+                1.67    0.00 1377612404/2463418713     comp_y(Point const&, Point const&) [29]
+                1.44    0.00 1706888190/11649885506     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [19]
+                0.51    0.00 329275786/1964980003     comp_x(Point const&, Point const&) [28]
+-----------------------------------------------
+                0.13    0.00 128794638/4375324716     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                0.61    0.00 620349401/4375324716     void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&) [21]
+                1.41    0.00 1436107869/4375324716     std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Point> >, std::is_move_constructible<Point>, std::is_move_assignable<Point> >::value, void>::type std::swap<Point>(Point&, Point&) [31]
+                2.15    0.00 2190072808/4375324716     void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>) [12]
+[23]     4.5    4.29    0.00 4375324716         std::remove_reference<Point&>::type&& std::move<Point&>(Point&) [23]
+-----------------------------------------------
+                0.04    0.23 31694460/478702623     void std::__move_median_to_first<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [62]
+                0.52    3.30 447008163/478702623     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [11]
+[24]     4.3    0.56    3.54 478702623         void std::iter_swap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [24]
+                1.32    1.41 478702623/478702623     std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Point> >, std::is_move_constructible<Point>, std::is_move_assignable<Point> >::value, void>::type std::swap<Point>(Point&, Point&) [31]
+                0.81    0.00 957405246/11649885506     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [19]
+-----------------------------------------------
+                0.58    3.41 164182039/164182039     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[25]     4.1    0.58    3.41 164182039         std::vector<Point, std::allocator<Point> >::_M_check_len(unsigned long, char const*) const [25]
+                0.37    1.89 328364078/328364078     std::vector<Point, std::allocator<Point> >::max_size() const [34]
+                0.70    0.00 656728156/1732814223     std::vector<Point, std::allocator<Point> >::size() const [39]
+                0.45    0.00 164182039/164182039     unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [78]
+-----------------------------------------------
+                1.13    2.25 620349401/620349401     void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&) [21]
+[26]     3.5    1.13    2.25 620349401         void std::allocator_traits<std::allocator<Point> >::construct<Point, Point>(std::allocator<Point>&, Point*, Point&&) [26]
+                1.00    0.86 620349401/620349401     void __gnu_cxx::new_allocator<Point>::construct<Point, Point>(Point*, Point&&) [38]
+                0.38    0.00 620349401/1240698802     Point&& std::forward<Point>(std::remove_reference<Point>::type&) [63]
+-----------------------------------------------
+                1.29    0.00 1134665042/2841553232     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [11]
+                1.94    0.00 1706888190/2841553232     void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>) [12]
+[27]     3.4    3.23    0.00 2841553232         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator--() [27]
+-----------------------------------------------
+                0.51    0.00 329275786/1964980003     bool __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::operator()<Point, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(Point&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [22]
+                2.54    0.00 1635704217/1964980003     bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [14]
+[28]     3.2    3.05    0.00 1964980003         comp_x(Point const&, Point const&) [28]
+-----------------------------------------------
+                1.32    0.00 1085806309/2463418713     bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [14]
+                1.67    0.00 1377612404/2463418713     bool __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::operator()<Point, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(Point&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [22]
+[29]     3.1    2.99    0.00 2463418713         comp_y(Point const&, Point const&) [29]
+-----------------------------------------------
+                0.41    0.00 260541540/1733208274     void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [16]
+                0.46    0.00 287040397/1733208274     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                1.88    0.00 1185626337/1733208274     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [11]
+[30]     2.9    2.75    0.00 1733208274         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator++() [30]
+-----------------------------------------------
+                1.32    1.41 478702623/478702623     void std::iter_swap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [24]
+[31]     2.8    1.32    1.41 478702623         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Point> >, std::is_move_constructible<Point>, std::is_move_assignable<Point> >::value, void>::type std::swap<Point>(Point&, Point&) [31]
+                1.41    0.00 1436107869/4375324716     std::remove_reference<Point&>::type&& std::move<Point&>(Point&) [23]
+-----------------------------------------------
+                0.26    0.62 164182039/495004769     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+                0.51    1.25 330822730/495004769     std::vector<Point, std::allocator<Point> >::push_back(Point const&) [7]
+[32]     2.7    0.77    1.87 495004769         void std::allocator_traits<std::allocator<Point> >::construct<Point, Point const&>(std::allocator<Point>&, Point*, Point const&) [32]
+                0.89    0.68 495004769/495004769     void __gnu_cxx::new_allocator<Point>::construct<Point, Point const&>(Point*, Point const&) [42]
+                0.30    0.00 495004769/1243441577     Point const& std::forward<Point const&>(std::remove_reference<Point const&>::type&) [65]
+-----------------------------------------------
+                0.14    0.00 121058672/2163469539     closest_pair_problem_naive(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [53]
+                2.42    0.00 2042410867/2163469539     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[33]     2.7    2.57    0.00 2163469539         std::vector<Point, std::allocator<Point> >::operator[](unsigned long) const [33]
+-----------------------------------------------
+                0.37    1.89 328364078/328364078     std::vector<Point, std::allocator<Point> >::_M_check_len(unsigned long, char const*) const [25]
+[34]     2.4    0.37    1.89 328364078         std::vector<Point, std::allocator<Point> >::max_size() const [34]
+                0.61    1.03 328364078/328364128     std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [41]
+                0.26    0.00 328364078/328364428     std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const [91]
+-----------------------------------------------
+                0.41    0.62 222643078/483184618     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+                0.48    0.72 260541540/483184618     void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [16]
+[35]     2.3    0.89    1.34 483184618         __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__val_comp_iter<bool (*)(Point const&, Point const&)>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [35]
+                0.63    0.33 483184618/483184618     __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&&) [58]
+                0.38    0.00 483184618/483184618     std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&) [81]
+-----------------------------------------------
+                0.04    0.00 73345664/3611559280     bool __gnu_cxx::operator==<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [95]
+                0.14    0.00 257589276/3611559280     Point* std::__niter_base<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [72]
+                0.18    0.00 328364078/3611559280     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+                0.40    0.00 738567830/3611559280     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [52]
+                0.52    0.00 957405246/3611559280     bool __gnu_cxx::operator< <Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [51]
+                0.69    0.00 1256287186/3611559280     bool __gnu_cxx::operator!=<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [40]
+[36]     2.1    1.97    0.00 3611559280         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [36]
+-----------------------------------------------
+                0.47    1.44 64397319/64397319     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+[37]     2.0    0.47    1.44 64397319         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::move_backward<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [37]
+                0.19    1.17 64397319/64397319     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [47]
+                0.09    0.00 128794638/128794638     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__miter_base<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [116]
+-----------------------------------------------
+                1.00    0.86 620349401/620349401     void std::allocator_traits<std::allocator<Point> >::construct<Point, Point>(std::allocator<Point>&, Point*, Point&&) [26]
+[38]     1.9    1.00    0.86 620349401         void __gnu_cxx::new_allocator<Point>::construct<Point, Point>(Point*, Point&&) [38]
+                0.48    0.00 620349401/1217354170     operator new(unsigned long, void*) [59]
+                0.38    0.00 620349401/1240698802     Point&& std::forward<Point>(std::remove_reference<Point>::type&) [63]
+-----------------------------------------------
+                0.00    0.00     350/1732814223     std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+                0.70    0.00 656728156/1732814223     std::vector<Point, std::allocator<Point> >::_M_check_len(unsigned long, char const*) const [25]
+                1.14    0.00 1076085717/1732814223     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[39]     1.9    1.84    0.00 1732814223         std::vector<Point, std::allocator<Point> >::size() const [39]
+-----------------------------------------------
+                0.06    0.04 36672832/628143593     void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [5]
+                0.44    0.29 267757532/628143593     void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [16]
+                0.53    0.35 323713229/628143593     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+[40]     1.8    1.02    0.69 628143593         bool __gnu_cxx::operator!=<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [40]
+                0.69    0.00 1256287186/3611559280     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [36]
+-----------------------------------------------
+                0.00    0.00      50/328364128     std::vector<Point, std::allocator<Point> >::_S_check_init_len(unsigned long, std::allocator<Point> const&) [134]
+                0.61    1.03 328364078/328364128     std::vector<Point, std::allocator<Point> >::max_size() const [34]
+[41]     1.7    0.61    1.03 328364128         std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [41]
+                0.33    0.25 328364128/328364128     std::allocator_traits<std::allocator<Point> >::max_size(std::allocator<Point> const&) [68]
+                0.45    0.00 328364128/328364128     unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [77]
+-----------------------------------------------
+                0.89    0.68 495004769/495004769     void std::allocator_traits<std::allocator<Point> >::construct<Point, Point const&>(std::allocator<Point>&, Point*, Point const&) [32]
+[42]     1.6    0.89    0.68 495004769         void __gnu_cxx::new_allocator<Point>::construct<Point, Point const&>(Point*, Point const&) [42]
+                0.38    0.00 495004769/1217354170     operator new(unsigned long, void*) [59]
+                0.30    0.00 495004769/1243441577     Point const& std::forward<Point const&>(std::remove_reference<Point const&>::type&) [65]
+-----------------------------------------------
+                0.00    1.55     350/350         main [1]
+[43]     1.6    0.00    1.55     350         std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+                0.01    1.49     350/350         Point* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, Point>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, std::allocator<Point>&) [44]
+                0.05    0.00     350/350         __gnu_cxx::__alloc_traits<std::allocator<Point>, Point>::_S_select_on_copy(std::allocator<Point> const&) [125]
+                0.00    0.00     350/400         std::_Vector_base<Point, std::allocator<Point> >::_Vector_base(unsigned long, std::allocator<Point> const&) [131]
+                0.00    0.00     350/36673332     std::allocator<Point>::~allocator() [123]
+                0.00    0.00     350/1732814223     std::vector<Point, std::allocator<Point> >::size() const [39]
+                0.00    0.00     350/328364428     std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const [91]
+                0.00    0.00     350/365037360     std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [92]
+                0.00    0.00     350/350         std::vector<Point, std::allocator<Point> >::end() const [145]
+                0.00    0.00     350/350         std::vector<Point, std::allocator<Point> >::begin() const [146]
+-----------------------------------------------
+                0.01    1.49     350/350         std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+[44]     1.6    0.01    1.49     350         Point* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, Point>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, std::allocator<Point>&) [44]
+                0.01    1.49     350/350         Point* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [45]
+-----------------------------------------------
+                0.01    1.49     350/350         Point* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, Point>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, std::allocator<Point>&) [44]
+[45]     1.6    0.01    1.49     350         Point* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [45]
+                0.17    1.32     350/350         Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [46]
+-----------------------------------------------
+                0.17    1.32     350/350         Point* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [45]
+[46]     1.5    0.17    1.32     350         Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [46]
+                0.52    0.12 89250000/89250000     void std::_Construct<Point, Point const&>(Point*, Point const&) [67]
+                0.15    0.20 89250350/89250350     bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [83]
+                0.19    0.00 89250000/89250000     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++() [101]
+                0.08    0.00 89250000/89250000     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const [119]
+                0.06    0.00 89250000/1963048203     Point* std::__addressof<Point>(Point&) [50]
+-----------------------------------------------
+                0.19    1.17 64397319/64397319     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::move_backward<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [37]
+[47]     1.4    0.19    1.17 64397319         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [47]
+                0.10    0.36 64397319/64397319     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__niter_wrap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*) [76]
+                0.28    0.11 193191957/257589276     Point* std::__niter_base<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [72]
+                0.13    0.20 64397319/64397319     Point* std::__copy_move_backward_a<true, Point*, Point*>(Point*, Point*, Point*) [85]
+-----------------------------------------------
+                1.35    0.00 1510733616/1510733616     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[48]     1.4    1.35    0.00 1510733616         std::abs(double) [48]
+-----------------------------------------------
+                0.79    0.48 620349401/620349401     void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&) [21]
+[49]     1.3    0.79    0.48 620349401         void std::allocator_traits<std::allocator<Point> >::destroy<Point>(std::allocator<Point>&, Point*) [49]
+                0.48    0.00 620349401/620349401     void __gnu_cxx::new_allocator<Point>::destroy<Point>(Point*) [75]
+-----------------------------------------------
+                0.01    0.00 12750000/1963048203     Point* std::__uninitialized_default_n_1<false>::__uninit_default_n<Point*, unsigned long>(Point*, unsigned long) [106]
+                0.06    0.00 89250000/1963048203     Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [46]
+                0.40    0.00 620349401/1963048203     void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&) [21]
+                0.79    0.00 1240698802/1963048203     Point* std::__relocate_a_1<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [20]
+[50]     1.3    1.26    0.00 1963048203         Point* std::__addressof<Point>(Point&) [50]
+-----------------------------------------------
+                0.70    0.52 478702623/478702623     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [11]
+[51]     1.3    0.70    0.52 478702623         bool __gnu_cxx::operator< <Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [51]
+                0.52    0.00 957405246/3611559280     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [36]
+-----------------------------------------------
+                0.06    0.03 31694460/369283915     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [9]
+                0.08    0.04 36672832/369283915     void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [5]
+                0.08    0.04 36672832/369283915     void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [6]
+                0.20    0.11 100061752/369283915     void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [8]
+                0.34    0.18 164182039/369283915     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[52]     1.2    0.76    0.40 369283915         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [52]
+                0.40    0.00 738567830/3611559280     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [36]
+-----------------------------------------------
+                0.69    0.43 36672832/36672832     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[53]     1.2    0.69    0.43 36672832         closest_pair_problem_naive(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [53]
+                0.12    0.17 68481504/117885201     distance(double const&, double const&, double const&, double const&) [74]
+                0.14    0.00 121058672/2163469539     std::vector<Point, std::allocator<Point> >::operator[](unsigned long) const [33]
+-----------------------------------------------
+                0.01    0.00 12750000/1213077618     main [1]
+                1.08    0.00 1200327618/1213077618     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[54]     1.1    1.09    0.00 1213077618         std::vector<Point, std::allocator<Point> >::operator[](unsigned long) [54]
+-----------------------------------------------
+                0.04    0.02 14431984/274982834     void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [6]
+                0.16    0.07 64397319/274982834     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__niter_wrap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*) [76]
+                0.24    0.11 95083380/274982834     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [9]
+                0.25    0.11 101070151/274982834     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+[55]     1.0    0.68    0.31 274982834         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const [55]
+                0.31    0.00 274982834/708387036     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [61]
+-----------------------------------------------
+                0.00    0.00     350/200854871     solve(std::vector<Point, std::allocator<Point> >, int const&) [2]
+                0.14    0.04 36672482/200854871     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+                0.62    0.18 164182039/200854871     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[56]     1.0    0.76    0.22 200854871         std::vector<Point, std::allocator<Point> >::begin() [56]
+                0.22    0.00 200854871/708387036     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [61]
+-----------------------------------------------
+                0.00    0.00     400/164182439     std::_Vector_base<Point, std::allocator<Point> >::_M_create_storage(unsigned long) [132]
+                0.19    0.79 164182039/164182439     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[57]     1.0    0.19    0.79 164182439         std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [57]
+                0.27    0.52 164182439/164182439     std::allocator_traits<std::allocator<Point> >::allocate(std::allocator<Point>&, unsigned long) [60]
+-----------------------------------------------
+                0.63    0.33 483184618/483184618     __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__val_comp_iter<bool (*)(Point const&, Point const&)>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [35]
+[58]     1.0    0.63    0.33 483184618         __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&&) [58]
+                0.33    0.00 483184618/556530282     std::remove_reference<bool (*&)(Point const&, Point const&)>::type&& std::move<bool (*&)(Point const&, Point const&)>(bool (*&)(Point const&, Point const&)) [80]
+-----------------------------------------------
+                0.01    0.00 12750000/1217354170     void std::_Construct<Point>(Point*) [115]
+                0.07    0.00 89250000/1217354170     void std::_Construct<Point, Point const&>(Point*, Point const&) [67]
+                0.38    0.00 495004769/1217354170     void __gnu_cxx::new_allocator<Point>::construct<Point, Point const&>(Point*, Point const&) [42]
+                0.48    0.00 620349401/1217354170     void __gnu_cxx::new_allocator<Point>::construct<Point, Point>(Point*, Point&&) [38]
+[59]     1.0    0.94    0.00 1217354170         operator new(unsigned long, void*) [59]
+-----------------------------------------------
+                0.27    0.52 164182439/164182439     std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [57]
+[60]     0.8    0.27    0.52 164182439         std::allocator_traits<std::allocator<Point> >::allocate(std::allocator<Point>&, unsigned long) [60]
+                0.40    0.12 164182439/164182439     __gnu_cxx::new_allocator<Point>::allocate(unsigned long, void const*) [70]
+-----------------------------------------------
+                0.04    0.00 31694460/708387036     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [84]
+                0.22    0.00 200854871/708387036     std::vector<Point, std::allocator<Point> >::begin() [56]
+                0.22    0.00 200854871/708387036     std::vector<Point, std::allocator<Point> >::end() [73]
+                0.31    0.00 274982834/708387036     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const [55]
+[61]     0.8    0.79    0.00 708387036         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [61]
+-----------------------------------------------
+                0.13    0.66 31694460/31694460     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [9]
+[62]     0.8    0.13    0.66 31694460         void std::__move_median_to_first<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [62]
+                0.13    0.26 82484290/2721510526     bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [14]
+                0.04    0.23 31694460/478702623     void std::iter_swap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [24]
+-----------------------------------------------
+                0.38    0.00 620349401/1240698802     void std::allocator_traits<std::allocator<Point> >::construct<Point, Point>(std::allocator<Point>&, Point*, Point&&) [26]
+                0.38    0.00 620349401/1240698802     void __gnu_cxx::new_allocator<Point>::construct<Point, Point>(Point*, Point&&) [38]
+[63]     0.8    0.77    0.00 1240698802         Point&& std::forward<Point>(std::remove_reference<Point>::type&) [63]
+-----------------------------------------------
+                0.00    0.00     400/36672882     main [1]
+                0.05    0.70 36672482/36672882     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[64]     0.8    0.05    0.70 36672882         std::vector<Point, std::allocator<Point> >::~vector() [64]
+                0.07    0.32 36672882/36672882     void std::_Destroy<Point*, Point>(Point*, Point*, std::allocator<Point>&) [79]
+                0.08    0.21 36672882/36672882     std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [89]
+                0.03    0.00 36672882/365037360     std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [92]
+-----------------------------------------------
+                0.05    0.00 89250000/1243441577     void std::_Construct<Point, Point const&>(Point*, Point const&) [67]
+                0.10    0.00 164182039/1243441577     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+                0.30    0.00 495004769/1243441577     void std::allocator_traits<std::allocator<Point> >::construct<Point, Point const&>(std::allocator<Point>&, Point*, Point const&) [32]
+                0.30    0.00 495004769/1243441577     void __gnu_cxx::new_allocator<Point>::construct<Point, Point const&>(Point*, Point const&) [42]
+[65]     0.8    0.75    0.00 1243441577         Point const& std::forward<Point const&>(std::remove_reference<Point const&>::type&) [65]
+-----------------------------------------------
+                0.09    0.05 36672882/200854921     std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [89]
+                0.38    0.22 164182039/200854921     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[66]     0.8    0.47    0.28 200854921         std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [66]
+                0.15    0.13 164182439/164182439     std::allocator_traits<std::allocator<Point> >::deallocate(std::allocator<Point>&, Point*, unsigned long) [90]
+-----------------------------------------------
+                0.52    0.12 89250000/89250000     Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [46]
+[67]     0.7    0.52    0.12 89250000         void std::_Construct<Point, Point const&>(Point*, Point const&) [67]
+                0.07    0.00 89250000/1217354170     operator new(unsigned long, void*) [59]
+                0.05    0.00 89250000/1243441577     Point const& std::forward<Point const&>(std::remove_reference<Point const&>::type&) [65]
+-----------------------------------------------
+                0.33    0.25 328364128/328364128     std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [41]
+[68]     0.6    0.33    0.25 328364128         std::allocator_traits<std::allocator<Point> >::max_size(std::allocator<Point> const&) [68]
+                0.25    0.00 328364128/492546567     __gnu_cxx::new_allocator<Point>::max_size() const [82]
+-----------------------------------------------
+                0.54    0.00 985092234/985092234     Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&) [18]
+[69]     0.6    0.54    0.00 985092234         Point* std::__niter_base<Point*>(Point*) [69]
+-----------------------------------------------
+                0.40    0.12 164182439/164182439     std::allocator_traits<std::allocator<Point> >::allocate(std::allocator<Point>&, unsigned long) [60]
+[70]     0.5    0.40    0.12 164182439         __gnu_cxx::new_allocator<Point>::allocate(unsigned long, void const*) [70]
+                0.12    0.00 164182439/492546567     __gnu_cxx::new_allocator<Point>::max_size() const [82]
+-----------------------------------------------
+                0.34    0.18 328364078/328364078     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[71]     0.5    0.34    0.18 328364078         std::vector<Point, std::allocator<Point> >::_S_use_relocate() [71]
+                0.18    0.00 328364078/328364078     std::vector<Point, std::allocator<Point> >::_S_nothrow_relocate(std::integral_constant<bool, true>) [103]
+-----------------------------------------------
+                0.09    0.04 64397319/257589276     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__niter_wrap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*) [76]
+                0.28    0.11 193191957/257589276     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [47]
+[72]     0.5    0.37    0.14 257589276         Point* std::__niter_base<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [72]
+                0.14    0.00 257589276/3611559280     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [36]
+-----------------------------------------------
+                0.00    0.00     350/200854871     solve(std::vector<Point, std::allocator<Point> >, int const&) [2]
+                0.05    0.04 36672482/200854871     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+                0.22    0.18 164182039/200854871     std::vector<Point, std::allocator<Point> >::push_back(Point const&) [7]
+[73]     0.5    0.27    0.22 200854871         std::vector<Point, std::allocator<Point> >::end() [73]
+                0.22    0.00 200854871/708387036     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [61]
+-----------------------------------------------
+                0.08    0.12 49403697/117885201     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+                0.12    0.17 68481504/117885201     closest_pair_problem_naive(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [53]
+[74]     0.5    0.20    0.29 117885201         distance(double const&, double const&, double const&, double const&) [74]
+                0.29    0.00 235770402/235770402     __gnu_cxx::__promote_2<double, int, __gnu_cxx::__promote<double, std::__is_integer<double>::__value>::__type, __gnu_cxx::__promote<int, std::__is_integer<int>::__value>::__type>::__type std::pow<double, int>(double, int) [88]
+-----------------------------------------------
+                0.48    0.00 620349401/620349401     void std::allocator_traits<std::allocator<Point> >::destroy<Point>(std::allocator<Point>&, Point*) [49]
+[75]     0.5    0.48    0.00 620349401         void __gnu_cxx::new_allocator<Point>::destroy<Point>(Point*) [75]
+-----------------------------------------------
+                0.10    0.36 64397319/64397319     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [47]
+[76]     0.5    0.10    0.36 64397319         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__niter_wrap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*) [76]
+                0.16    0.07 64397319/274982834     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const [55]
+                0.09    0.04 64397319/257589276     Point* std::__niter_base<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [72]
+-----------------------------------------------
+                0.45    0.00 328364128/328364128     std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [41]
+[77]     0.5    0.45    0.00 328364128         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [77]
+-----------------------------------------------
+                0.45    0.00 164182039/164182039     std::vector<Point, std::allocator<Point> >::_M_check_len(unsigned long, char const*) const [25]
+[78]     0.5    0.45    0.00 164182039         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [78]
+-----------------------------------------------
+                0.07    0.32 36672882/36672882     std::vector<Point, std::allocator<Point> >::~vector() [64]
+[79]     0.4    0.07    0.32 36672882         void std::_Destroy<Point*, Point>(Point*, Point*, std::allocator<Point>&) [79]
+                0.24    0.08 36672882/36672882     void std::_Destroy<Point*>(Point*, Point*) [86]
+-----------------------------------------------
+                0.03    0.00 36672832/556530282     __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__iter_comp_iter<bool (*)(Point const&, Point const&)>(bool (*)(Point const&, Point const&)) [98]
+                0.03    0.00 36672832/556530282     __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::_Iter_comp_iter(bool (*)(Point const&, Point const&)) [122]
+                0.33    0.00 483184618/556530282     __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&&) [58]
+[80]     0.4    0.38    0.00 556530282         std::remove_reference<bool (*&)(Point const&, Point const&)>::type&& std::move<bool (*&)(Point const&, Point const&)>(bool (*&)(Point const&, Point const&)) [80]
+-----------------------------------------------
+                0.38    0.00 483184618/483184618     __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__val_comp_iter<bool (*)(Point const&, Point const&)>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [35]
+[81]     0.4    0.38    0.00 483184618         std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&) [81]
+-----------------------------------------------
+                0.12    0.00 164182439/492546567     __gnu_cxx::new_allocator<Point>::allocate(unsigned long, void const*) [70]
+                0.25    0.00 328364128/492546567     std::allocator_traits<std::allocator<Point> >::max_size(std::allocator<Point> const&) [68]
+[82]     0.4    0.37    0.00 492546567         __gnu_cxx::new_allocator<Point>::max_size() const [82]
+-----------------------------------------------
+                0.15    0.20 89250350/89250350     Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [46]
+[83]     0.4    0.15    0.20 89250350         bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [83]
+                0.20    0.00 178500700/178500700     __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const [100]
+-----------------------------------------------
+                0.30    0.04 31694460/31694460     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [9]
+[84]     0.3    0.30    0.04 31694460         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [84]
+                0.04    0.00 31694460/708387036     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [61]
+-----------------------------------------------
+                0.13    0.20 64397319/64397319     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [47]
+[85]     0.3    0.13    0.20 64397319         Point* std::__copy_move_backward_a<true, Point*, Point*>(Point*, Point*, Point*) [85]
+                0.20    0.00 64397319/64397319     Point* std::__copy_move_backward<true, true, std::random_access_iterator_tag>::__copy_move_b<Point>(Point const*, Point const*, Point*) [99]
+-----------------------------------------------
+                0.24    0.08 36672882/36672882     void std::_Destroy<Point*, Point>(Point*, Point*, std::allocator<Point>&) [79]
+[86]     0.3    0.24    0.08 36672882         void std::_Destroy<Point*>(Point*, Point*) [86]
+                0.08    0.00 36672882/36672882     void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*) [117]
+-----------------------------------------------
+                0.10    0.22 36672482/36672482     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[87]     0.3    0.10    0.22 36672482         std::vector<Point, std::allocator<Point> >::vector() [87]
+                0.03    0.19 36672482/36672482     std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [94]
+-----------------------------------------------
+                0.29    0.00 235770402/235770402     distance(double const&, double const&, double const&, double const&) [74]
+[88]     0.3    0.29    0.00 235770402         __gnu_cxx::__promote_2<double, int, __gnu_cxx::__promote<double, std::__is_integer<double>::__value>::__type, __gnu_cxx::__promote<int, std::__is_integer<int>::__value>::__type>::__type std::pow<double, int>(double, int) [88]
+-----------------------------------------------
+                0.08    0.21 36672882/36672882     std::vector<Point, std::allocator<Point> >::~vector() [64]
+[89]     0.3    0.08    0.21 36672882         std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [89]
+                0.09    0.05 36672882/200854921     std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [66]
+                0.01    0.06 36672882/36672882     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [121]
+-----------------------------------------------
+                0.15    0.13 164182439/164182439     std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [66]
+[90]     0.3    0.15    0.13 164182439         std::allocator_traits<std::allocator<Point> >::deallocate(std::allocator<Point>&, Point*, unsigned long) [90]
+                0.13    0.00 164182439/164182439     __gnu_cxx::new_allocator<Point>::deallocate(Point*, unsigned long) [111]
+-----------------------------------------------
+                0.00    0.00     350/328364428     std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+                0.26    0.00 328364078/328364428     std::vector<Point, std::allocator<Point> >::max_size() const [34]
+[91]     0.3    0.26    0.00 328364428         std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const [91]
+-----------------------------------------------
+                0.00    0.00      50/365037360     std::vector<Point, std::allocator<Point> >::_M_default_initialize(unsigned long) [105]
+                0.00    0.00     350/365037360     std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+                0.03    0.00 36672882/365037360     std::vector<Point, std::allocator<Point> >::~vector() [64]
+                0.23    0.00 328364078/365037360     void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [10]
+[92]     0.3    0.26    0.00 365037360         std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [92]
+-----------------------------------------------
+                                                 <spontaneous>
+[93]     0.3    0.24    0.00                 void std::__pop_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&) [93]
+-----------------------------------------------
+                0.03    0.19 36672482/36672482     std::vector<Point, std::allocator<Point> >::vector() [87]
+[94]     0.2    0.03    0.19 36672482         std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [94]
+                0.04    0.15 36672482/36672482     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [102]
+-----------------------------------------------
+                0.17    0.04 36672832/36672832     void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [13]
+[95]     0.2    0.17    0.04 36672832         bool __gnu_cxx::operator==<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [95]
+                0.04    0.00 73345664/3611559280     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [36]
+-----------------------------------------------
+                0.21    0.00       1/1           __libc_csu_init [97]
+[96]     0.2    0.21    0.00       1         _GLOBAL__sub_I__ZN5PointC2Ev [96]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [148]
+-----------------------------------------------
+                                                 <spontaneous>
+[97]     0.2    0.00    0.21                 __libc_csu_init [97]
+                0.21    0.00       1/1           _GLOBAL__sub_I__ZN5PointC2Ev [96]
+-----------------------------------------------
+                0.11    0.09 36672832/36672832     void std::sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)) [4]
+[98]     0.2    0.11    0.09 36672832         __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__iter_comp_iter<bool (*)(Point const&, Point const&)>(bool (*)(Point const&, Point const&)) [98]
+                0.04    0.03 36672832/36672832     __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::_Iter_comp_iter(bool (*)(Point const&, Point const&)) [122]
+                0.03    0.00 36672832/556530282     std::remove_reference<bool (*&)(Point const&, Point const&)>::type&& std::move<bool (*&)(Point const&, Point const&)>(bool (*&)(Point const&, Point const&)) [80]
+-----------------------------------------------
+                0.20    0.00 64397319/64397319     Point* std::__copy_move_backward_a<true, Point*, Point*>(Point*, Point*, Point*) [85]
+[99]     0.2    0.20    0.00 64397319         Point* std::__copy_move_backward<true, true, std::random_access_iterator_tag>::__copy_move_b<Point>(Point const*, Point const*, Point*) [99]
+-----------------------------------------------
+                0.20    0.00 178500700/178500700     bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [83]
+[100]    0.2    0.20    0.00 178500700         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const [100]
+-----------------------------------------------
+                0.19    0.00 89250000/89250000     Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [46]
+[101]    0.2    0.19    0.00 89250000         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++() [101]
+-----------------------------------------------
+                0.04    0.15 36672482/36672482     std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [94]
+[102]    0.2    0.04    0.15 36672482         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [102]
+                0.06    0.02 36672482/36672532     std::allocator<Point>::allocator() [118]
+                0.07    0.00 36672482/36672882     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data() [120]
+-----------------------------------------------
+                0.18    0.00 328364078/328364078     std::vector<Point, std::allocator<Point> >::_S_use_relocate() [71]
+[103]    0.2    0.18    0.00 328364078         std::vector<Point, std::allocator<Point> >::_S_nothrow_relocate(std::integral_constant<bool, true>) [103]
+-----------------------------------------------
+                0.00    0.16      50/50          main [1]
+[104]    0.2    0.00    0.16      50         std::vector<Point, std::allocator<Point> >::vector(unsigned long, std::allocator<Point> const&) [104]
+                0.00    0.16      50/50          std::vector<Point, std::allocator<Point> >::_M_default_initialize(unsigned long) [105]
+                0.00    0.00      50/400         std::_Vector_base<Point, std::allocator<Point> >::_Vector_base(unsigned long, std::allocator<Point> const&) [131]
+                0.00    0.00      50/50          std::vector<Point, std::allocator<Point> >::_S_check_init_len(unsigned long, std::allocator<Point> const&) [134]
+-----------------------------------------------
+                0.00    0.16      50/50          std::vector<Point, std::allocator<Point> >::vector(unsigned long, std::allocator<Point> const&) [104]
+[105]    0.2    0.00    0.16      50         std::vector<Point, std::allocator<Point> >::_M_default_initialize(unsigned long) [105]
+                0.00    0.16      50/50          Point* std::__uninitialized_default_n_a<Point*, unsigned long, Point>(Point*, unsigned long, std::allocator<Point>&) [108]
+                0.00    0.00      50/365037360     std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [92]
+-----------------------------------------------
+                0.06    0.10      50/50          Point* std::__uninitialized_default_n<Point*, unsigned long>(Point*, unsigned long) [107]
+[106]    0.2    0.06    0.10      50         Point* std::__uninitialized_default_n_1<false>::__uninit_default_n<Point*, unsigned long>(Point*, unsigned long) [106]
+                0.07    0.02 12750000/12750000     void std::_Construct<Point>(Point*) [115]
+                0.01    0.00 12750000/1963048203     Point* std::__addressof<Point>(Point&) [50]
+-----------------------------------------------
+                0.00    0.16      50/50          Point* std::__uninitialized_default_n_a<Point*, unsigned long, Point>(Point*, unsigned long, std::allocator<Point>&) [108]
+[107]    0.2    0.00    0.16      50         Point* std::__uninitialized_default_n<Point*, unsigned long>(Point*, unsigned long) [107]
+                0.06    0.10      50/50          Point* std::__uninitialized_default_n_1<false>::__uninit_default_n<Point*, unsigned long>(Point*, unsigned long) [106]
+-----------------------------------------------
+                0.00    0.16      50/50          std::vector<Point, std::allocator<Point> >::_M_default_initialize(unsigned long) [105]
+[108]    0.2    0.00    0.16      50         Point* std::__uninitialized_default_n_a<Point*, unsigned long, Point>(Point*, unsigned long, std::allocator<Point>&) [108]
+                0.00    0.16      50/50          Point* std::__uninitialized_default_n<Point*, unsigned long>(Point*, unsigned long) [107]
+-----------------------------------------------
+                                                 <spontaneous>
+[109]    0.1    0.14    0.00                 bool std::operator==<Point*>(std::move_iterator<Point*> const&, std::move_iterator<Point*> const&) [109]
+-----------------------------------------------
+                                                 <spontaneous>
+[110]    0.1    0.13    0.00                 void std::__adjust_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, Point, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, long, Point, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [110]
+-----------------------------------------------
+                0.13    0.00 164182439/164182439     std::allocator_traits<std::allocator<Point> >::deallocate(std::allocator<Point>&, Point*, unsigned long) [90]
+[111]    0.1    0.13    0.00 164182439         __gnu_cxx::new_allocator<Point>::deallocate(Point*, unsigned long) [111]
+-----------------------------------------------
+                                                 <spontaneous>
+[112]    0.1    0.11    0.00                 void std::__partial_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [112]
+-----------------------------------------------
+                0.10    0.00 86076179/86076179     closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [3]
+[113]    0.1    0.10    0.00 86076179         double const& std::min<double>(double const&, double const&) [113]
+-----------------------------------------------
+                                                 <spontaneous>
+[114]    0.1    0.09    0.00                 void std::__make_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&) [114]
+-----------------------------------------------
+                0.07    0.02 12750000/12750000     Point* std::__uninitialized_default_n_1<false>::__uninit_default_n<Point*, unsigned long>(Point*, unsigned long) [106]
+[115]    0.1    0.07    0.02 12750000         void std::_Construct<Point>(Point*) [115]
+                0.01    0.00 12750000/12750000     Point::Point() [129]
+                0.01    0.00 12750000/1217354170     operator new(unsigned long, void*) [59]
+-----------------------------------------------
+                0.09    0.00 128794638/128794638     __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::move_backward<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [37]
+[116]    0.1    0.09    0.00 128794638         __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__miter_base<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [116]
+-----------------------------------------------
+                0.08    0.00 36672882/36672882     void std::_Destroy<Point*>(Point*, Point*) [86]
+[117]    0.1    0.08    0.00 36672882         void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*) [117]
+-----------------------------------------------
+                0.00    0.00      50/36672532     main [1]
+                0.06    0.02 36672482/36672532     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [102]
+[118]    0.1    0.06    0.02 36672532         std::allocator<Point>::allocator() [118]
+                0.02    0.00 36672532/36672532     __gnu_cxx::new_allocator<Point>::new_allocator() [127]
+-----------------------------------------------
+                0.08    0.00 89250000/89250000     Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [46]
+[119]    0.1    0.08    0.00 89250000         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const [119]
+-----------------------------------------------
+                0.00    0.00     400/36672882     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl(std::allocator<Point> const&) [133]
+                0.07    0.00 36672482/36672882     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [102]
+[120]    0.1    0.07    0.00 36672882         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data() [120]
+-----------------------------------------------
+                0.01    0.06 36672882/36672882     std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [89]
+[121]    0.1    0.01    0.06 36672882         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [121]
+                0.06    0.00 36672882/36673332     std::allocator<Point>::~allocator() [123]
+-----------------------------------------------
+                0.04    0.03 36672832/36672832     __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__iter_comp_iter<bool (*)(Point const&, Point const&)>(bool (*)(Point const&, Point const&)) [98]
+[122]    0.1    0.04    0.03 36672832         __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::_Iter_comp_iter(bool (*)(Point const&, Point const&)) [122]
+                0.03    0.00 36672832/556530282     std::remove_reference<bool (*&)(Point const&, Point const&)>::type&& std::move<bool (*&)(Point const&, Point const&)>(bool (*&)(Point const&, Point const&)) [80]
+-----------------------------------------------
+                0.00    0.00      50/36673332     main [1]
+                0.00    0.00      50/36673332     std::vector<Point, std::allocator<Point> >::_S_check_init_len(unsigned long, std::allocator<Point> const&) [134]
+                0.00    0.00     350/36673332     std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+                0.06    0.00 36672882/36673332     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [121]
+[123]    0.1    0.06    0.00 36673332         std::allocator<Point>::~allocator() [123]
+                0.00    0.00 36673332/36673332     __gnu_cxx::new_allocator<Point>::~new_allocator() [141]
+-----------------------------------------------
+                0.06    0.00 36672832/36672832     void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [5]
+[124]    0.1    0.06    0.00 36672832         std::__lg(long) [124]
+-----------------------------------------------
+                0.05    0.00     350/350         std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+[125]    0.1    0.05    0.00     350         __gnu_cxx::__alloc_traits<std::allocator<Point>, Point>::_S_select_on_copy(std::allocator<Point> const&) [125]
+                0.00    0.00     350/350         std::allocator_traits<std::allocator<Point> >::select_on_container_copy_construction(std::allocator<Point> const&) [147]
+-----------------------------------------------
+                0.03    0.00 12750000/12750000     main [1]
+[126]    0.0    0.03    0.00 12750000         Point::Point(double, double) [126]
+-----------------------------------------------
+                0.02    0.00 36672532/36672532     std::allocator<Point>::allocator() [118]
+[127]    0.0    0.02    0.00 36672532         __gnu_cxx::new_allocator<Point>::new_allocator() [127]
+-----------------------------------------------
+                                                 <spontaneous>
+[128]    0.0    0.02    0.00                 void std::__push_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, Point, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, long, Point, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(Point const&, Point const&)>&) [128]
+-----------------------------------------------
+                0.01    0.00 12750000/12750000     void std::_Construct<Point>(Point*) [115]
+[129]    0.0    0.01    0.00 12750000         Point::Point() [129]
+-----------------------------------------------
+                                                 <spontaneous>
+[130]    0.0    0.01    0.00                 Point* std::__uninitialized_copy_a<std::move_iterator<Point*>, Point*, Point>(std::move_iterator<Point*>, std::move_iterator<Point*>, Point*, std::allocator<Point>&) [130]
+-----------------------------------------------
+                0.00    0.00      50/400         std::vector<Point, std::allocator<Point> >::vector(unsigned long, std::allocator<Point> const&) [104]
+                0.00    0.00     350/400         std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+[131]    0.0    0.00    0.00     400         std::_Vector_base<Point, std::allocator<Point> >::_Vector_base(unsigned long, std::allocator<Point> const&) [131]
+                0.00    0.00     400/400         std::_Vector_base<Point, std::allocator<Point> >::_M_create_storage(unsigned long) [132]
+                0.00    0.00     400/400         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl(std::allocator<Point> const&) [133]
+-----------------------------------------------
+                0.00    0.00     400/400         std::_Vector_base<Point, std::allocator<Point> >::_Vector_base(unsigned long, std::allocator<Point> const&) [131]
+[132]    0.0    0.00    0.00     400         std::_Vector_base<Point, std::allocator<Point> >::_M_create_storage(unsigned long) [132]
+                0.00    0.00     400/164182439     std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [57]
+-----------------------------------------------
+                0.00    0.00     400/400         std::_Vector_base<Point, std::allocator<Point> >::_Vector_base(unsigned long, std::allocator<Point> const&) [131]
+[133]    0.0    0.00    0.00     400         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl(std::allocator<Point> const&) [133]
+                0.00    0.00     400/36672882     std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data() [120]
+                0.00    0.00     400/800         std::allocator<Point>::allocator(std::allocator<Point> const&) [143]
+-----------------------------------------------
+                0.00    0.00      50/50          std::vector<Point, std::allocator<Point> >::vector(unsigned long, std::allocator<Point> const&) [104]
+[134]    0.0    0.00    0.00      50         std::vector<Point, std::allocator<Point> >::_S_check_init_len(unsigned long, std::allocator<Point> const&) [134]
+                0.00    0.00      50/328364128     std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [41]
+                0.00    0.00      50/36673332     std::allocator<Point>::~allocator() [123]
+                0.00    0.00      50/800         std::allocator<Point>::allocator(std::allocator<Point> const&) [143]
+-----------------------------------------------
+                0.00    0.00 36673332/36673332     std::allocator<Point>::~allocator() [123]
+[141]    0.0    0.00    0.00 36673332         __gnu_cxx::new_allocator<Point>::~new_allocator() [141]
+-----------------------------------------------
+                0.00    0.00     800/800         std::allocator<Point>::allocator(std::allocator<Point> const&) [143]
+[142]    0.0    0.00    0.00     800         __gnu_cxx::new_allocator<Point>::new_allocator(__gnu_cxx::new_allocator<Point> const&) [142]
+-----------------------------------------------
+                0.00    0.00      50/800         std::vector<Point, std::allocator<Point> >::_S_check_init_len(unsigned long, std::allocator<Point> const&) [134]
+                0.00    0.00     350/800         std::allocator_traits<std::allocator<Point> >::select_on_container_copy_construction(std::allocator<Point> const&) [147]
+                0.00    0.00     400/800         std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl(std::allocator<Point> const&) [133]
+[143]    0.0    0.00    0.00     800         std::allocator<Point>::allocator(std::allocator<Point> const&) [143]
+                0.00    0.00     800/800         __gnu_cxx::new_allocator<Point>::new_allocator(__gnu_cxx::new_allocator<Point> const&) [142]
+-----------------------------------------------
+                0.00    0.00     350/700         std::vector<Point, std::allocator<Point> >::begin() const [146]
+                0.00    0.00     350/700         std::vector<Point, std::allocator<Point> >::end() const [145]
+[144]    0.0    0.00    0.00     700         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [144]
+-----------------------------------------------
+                0.00    0.00     350/350         std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+[145]    0.0    0.00    0.00     350         std::vector<Point, std::allocator<Point> >::end() const [145]
+                0.00    0.00     350/700         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [144]
+-----------------------------------------------
+                0.00    0.00     350/350         std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [43]
+[146]    0.0    0.00    0.00     350         std::vector<Point, std::allocator<Point> >::begin() const [146]
+                0.00    0.00     350/700         __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [144]
+-----------------------------------------------
+                0.00    0.00     350/350         __gnu_cxx::__alloc_traits<std::allocator<Point>, Point>::_S_select_on_copy(std::allocator<Point> const&) [125]
+[147]    0.0    0.00    0.00     350         std::allocator_traits<std::allocator<Point> >::select_on_container_copy_construction(std::allocator<Point> const&) [147]
+                0.00    0.00     350/800         std::allocator<Point>::allocator(std::allocator<Point> const&) [143]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN5PointC2Ev [96]
+[148]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [148]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [96] _GLOBAL__sub_I__ZN5PointC2Ev [34] std::vector<Point, std::allocator<Point> >::max_size() const [114] void std::__make_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&)
+   [3] closest_pair_problem_2d(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [33] std::vector<Point, std::allocator<Point> >::operator[](unsigned long) const [128] void std::__push_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, Point, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, long, Point, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(Point const&, Point const&)>&)
+  [53] closest_pair_problem_naive(std::vector<Point, std::allocator<Point> > const&, int const&, int const&) [143] std::allocator<Point>::allocator(std::allocator<Point> const&) [116] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__miter_base<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+ [148] __static_initialization_and_destruction_0(int, int) [118] std::allocator<Point>::allocator() [69] Point* std::__niter_base<Point*>(Point*)
+   [2] solve(std::vector<Point, std::allocator<Point> >, int const&) [123] std::allocator<Point>::~allocator() [72] Point* std::__niter_base<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+  [28] comp_x(Point const&, Point const&) [117] void std::_Destroy_aux<true>::__destroy<Point*>(Point*, Point*) [76] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__niter_wrap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point*)
+  [29] comp_y(Point const&, Point const&) [57] std::_Vector_base<Point, std::allocator<Point> >::_M_allocate(unsigned long) [18] Point* std::__relocate_a<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&)
+  [74] distance(double const&, double const&, double const&, double const&) [133] std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl(std::allocator<Point> const&) [110] void std::__adjust_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, Point, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, long, Point, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+ [126] Point::Point(double, double) [102] std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::_Vector_impl() [37] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::move_backward<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+ [129] Point::Point()        [121] std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl::~_Vector_impl() [112] void std::__partial_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+ [111] __gnu_cxx::new_allocator<Point>::deallocate(Point*, unsigned long) [66] std::_Vector_base<Point, std::allocator<Point> >::_M_deallocate(Point*, unsigned long) [20] Point* std::__relocate_a_1<Point*, Point*, std::allocator<Point> >(Point*, Point*, Point*, std::allocator<Point>&)
+  [75] void __gnu_cxx::new_allocator<Point>::destroy<Point>(Point*) [132] std::_Vector_base<Point, std::allocator<Point> >::_M_create_storage(unsigned long) [13] void std::__insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  [70] __gnu_cxx::new_allocator<Point>::allocate(unsigned long, void const*) [120] std::_Vector_base<Point, std::allocator<Point> >::_Vector_impl_data::_Vector_impl_data() [8] void std::__introsort_loop<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  [42] void __gnu_cxx::new_allocator<Point>::construct<Point, Point const&>(Point*, Point const&) [92] std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() [45] Point* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*)
+  [38] void __gnu_cxx::new_allocator<Point>::construct<Point, Point>(Point*, Point&&) [131] std::_Vector_base<Point, std::allocator<Point> >::_Vector_base(unsigned long, std::allocator<Point> const&) [21] void std::__relocate_object_a<Point, Point, std::allocator<Point> >(Point*, Point*, std::allocator<Point>&)
+ [142] __gnu_cxx::new_allocator<Point>::new_allocator(__gnu_cxx::new_allocator<Point> const&) [94] std::_Vector_base<Point, std::allocator<Point> >::_Vector_base() [11] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+ [127] __gnu_cxx::new_allocator<Point>::new_allocator() [89] std::_Vector_base<Point, std::allocator<Point> >::~_Vector_base() [85] Point* std::__copy_move_backward_a<true, Point*, Point*>(Point*, Point*, Point*)
+ [141] __gnu_cxx::new_allocator<Point>::~new_allocator() [90] std::allocator_traits<std::allocator<Point> >::deallocate(std::allocator<Point>&, Point*, unsigned long) [6] void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+ [125] __gnu_cxx::__alloc_traits<std::allocator<Point>, Point>::_S_select_on_copy(std::allocator<Point> const&) [147] std::allocator_traits<std::allocator<Point> >::select_on_container_copy_construction(std::allocator<Point> const&) [62] void std::__move_median_to_first<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  [61] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point* const&) [49] void std::allocator_traits<std::allocator<Point> >::destroy<Point>(std::allocator<Point>&, Point*) [44] Point* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, Point>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*, std::allocator<Point>&)
+  [27] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator--() [60] std::allocator_traits<std::allocator<Point> >::allocate(std::allocator<Point>&, unsigned long) [130] Point* std::__uninitialized_copy_a<std::move_iterator<Point*>, Point*, Point>(std::move_iterator<Point*>, std::move_iterator<Point*>, Point*, std::allocator<Point>&)
+  [30] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator++() [68] std::allocator_traits<std::allocator<Point> >::max_size(std::allocator<Point> const&) [47] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+ [144] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::__normal_iterator(Point const* const&) [32] void std::allocator_traits<std::allocator<Point> >::construct<Point, Point const&>(std::allocator<Point>&, Point*, Point const&) [12] void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>)
+ [101] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator++() [26] void std::allocator_traits<std::allocator<Point> >::construct<Point, Point>(std::allocator<Point>&, Point*, Point&&) [107] Point* std::__uninitialized_default_n<Point*, unsigned long>(Point*, unsigned long)
+  [58] __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&&) [99] Point* std::__copy_move_backward<true, true, std::random_access_iterator_tag>::__copy_move_b<Point>(Point const*, Point const*, Point*) [16] void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  [22] bool __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)>::operator()<Point, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(Point&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [46] Point* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*>(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >, Point*) [9] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+ [122] __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::_Iter_comp_iter(bool (*)(Point const&, Point const&)) [106] Point* std::__uninitialized_default_n_1<false>::__uninit_default_n<Point*, unsigned long>(Point*, unsigned long) [108] Point* std::__uninitialized_default_n_a<Point*, unsigned long, Point>(Point*, unsigned long, std::allocator<Point>&)
+  [14] bool __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>::operator()<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >) [41] std::vector<Point, std::allocator<Point> >::_S_max_size(std::allocator<Point> const&) [48] std::abs(double)
+  [35] __gnu_cxx::__ops::_Val_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__val_comp_iter<bool (*)(Point const&, Point const&)>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>) [15] std::vector<Point, std::allocator<Point> >::_S_relocate(Point*, Point*, Point*, std::allocator<Point>&) [78] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  [98] __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> __gnu_cxx::__ops::__iter_comp_iter<bool (*)(Point const&, Point const&)>(bool (*)(Point const&, Point const&)) [17] std::vector<Point, std::allocator<Point> >::_S_do_relocate(Point*, Point*, Point*, std::allocator<Point>&, std::integral_constant<bool, true>) [113] double const& std::min<double>(double const&, double const&)
+  [95] bool __gnu_cxx::operator==<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [71] std::vector<Point, std::allocator<Point> >::_S_use_relocate() [77] unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  [51] bool __gnu_cxx::operator< <Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [10] void std::vector<Point, std::allocator<Point> >::_M_realloc_insert<Point const&>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, Point const&) [88] __gnu_cxx::__promote_2<double, int, __gnu_cxx::__promote<double, std::__is_integer<double>::__value>::__type, __gnu_cxx::__promote<int, std::__is_integer<int>::__value>::__type>::__type std::pow<double, int>(double, int)
+  [52] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::difference_type __gnu_cxx::operator-<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [134] std::vector<Point, std::allocator<Point> >::_S_check_init_len(unsigned long, std::allocator<Point> const&) [124] std::__lg(long)
+  [40] bool __gnu_cxx::operator!=<Point*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > const&) [103] std::vector<Point, std::allocator<Point> >::_S_nothrow_relocate(std::integral_constant<bool, true>) [23] std::remove_reference<Point&>::type&& std::move<Point&>(Point&)
+  [83] bool __gnu_cxx::operator!=<Point const*, std::vector<Point, std::allocator<Point> > >(__gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&, __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > > const&) [105] std::vector<Point, std::allocator<Point> >::_M_default_initialize(unsigned long) [81] std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&>(__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&)
+  [82] __gnu_cxx::new_allocator<Point>::max_size() const [73] std::vector<Point, std::allocator<Point> >::end() [80] std::remove_reference<bool (*&)(Point const&, Point const&)>::type&& std::move<bool (*&)(Point const&, Point const&)>(bool (*&)(Point const&, Point const&))
+  [36] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::base() const [56] std::vector<Point, std::allocator<Point> >::begin() [4] void std::sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&)>(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, bool (*)(Point const&, Point const&))
+  [19] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator*() const [7] std::vector<Point, std::allocator<Point> >::push_back(Point const&) [31] std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<Point> >, std::is_move_constructible<Point>, std::is_move_assignable<Point> >::value, void>::type std::swap<Point>(Point&, Point&)
+  [84] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator-(long) const [104] std::vector<Point, std::allocator<Point> >::vector(unsigned long, std::allocator<Point> const&) [5] void std::__sort<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>)
+  [55] __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >::operator+(long) const [87] std::vector<Point, std::allocator<Point> >::vector() [63] Point&& std::forward<Point>(std::remove_reference<Point>::type&)
+ [100] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::base() const [43] std::vector<Point, std::allocator<Point> >::vector(std::vector<Point, std::allocator<Point> > const&) [65] Point const& std::forward<Point const&>(std::remove_reference<Point const&>::type&)
+ [119] __gnu_cxx::__normal_iterator<Point const*, std::vector<Point, std::allocator<Point> > >::operator*() const [64] std::vector<Point, std::allocator<Point> >::~vector() [86] void std::_Destroy<Point*>(Point*, Point*)
+  [91] std::_Vector_base<Point, std::allocator<Point> >::_M_get_Tp_allocator() const [54] std::vector<Point, std::allocator<Point> >::operator[](unsigned long) [79] void std::_Destroy<Point*, Point>(Point*, Point*, std::allocator<Point>&)
+  [25] std::vector<Point, std::allocator<Point> >::_M_check_len(unsigned long, char const*) const [115] void std::_Construct<Point>(Point*) [24] void std::iter_swap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > > >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >)
+ [145] std::vector<Point, std::allocator<Point> >::end() const [67] void std::_Construct<Point, Point const&>(Point*, Point const&) [109] bool std::operator==<Point*>(std::move_iterator<Point*> const&, std::move_iterator<Point*> const&)
+  [39] std::vector<Point, std::allocator<Point> >::size() const [93] void std::__pop_heap<__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)> >(__gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__normal_iterator<Point*, std::vector<Point, std::allocator<Point> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(Point const&, Point const&)>&) [59] operator new(unsigned long, void*)
+ [146] std::vector<Point, std::allocator<Point> >::begin() const [50] Point* std::__addressof<Point>(Point&) [1] main
